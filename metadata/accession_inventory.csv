@@ -1,0 +1,7 @@
+accession,resource_type,repository,verified_from_public_record,current_role,raw_data_available,processed_data_available,notes
+GSE146621,GEO Series,NCBI GEO,YES,DCM cardiac transcriptomic resource,YES,YES,29 samples reported by GEO
+GSE138262,GEO Series,NCBI GEO,YES,HCM single-cell reference,YES,YES,Five biological participants reported
+PRJNA575238,BioProject/SRA,NCBI SRA,YES,HCM single-cell sequencing resource,YES,YES,Associated with GSE138262
+GSE141910,GEO Series,NCBI GEO,YES,MAGNet LV transcriptomic resource,YES,YES,366 samples reported by GEO
+GSE249925,GEO Series,NCBI GEO,YES,HCM and control cardiac mRNA resource,YES,YES,120 samples: 23 controls and 97 HCM
+PRJNA1051135,BioProject/SRA,NCBI SRA,YES,HCM and control cardiac mRNA resource,YES,YES,Associated with GSE249925
