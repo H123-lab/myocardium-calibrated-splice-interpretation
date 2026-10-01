@@ -1,0 +1,29 @@
+Dataset
+GEO_accession
+BioProject
+SRA_accession
+Source_publication
+Tissue
+Assay
+Platform
+Source_sample_count
+Retained_sample_count
+Final_unique_participant_count
+Disease_groups
+Raw_data_available
+Processed_data_available
+Access_type
+Controlled_access
+Participant_overlap_assessed
+Deduplication_method
+Inclusion_exclusion_source
+Ethics_governance_source
+Status
+Notes
+
+For the three verified datasets we currently have:
+GSE146621 | GSE146621 | PRJNA611524 | SRP252042 | Verdonschot et al. | LV cardiac tissue | bulk RNA-seq | NextSeq 550 | 29 | UNKNOWN | UNKNOWN | DCM/genetic DCM | Yes | Yes | Public | No known controlled-access requirement established | UNKNOWN | UNKNOWN | UNKNOWN | VERIFIED SOURCE, COHORT LINKAGE PENDING
+
+GSE141910 | GSE141910 | PRJNA595151 | SRP237337 | MAGNet consortium publications | LV myocardium | bulk RNA-seq | HiSeq 2500 | 366 | 300 | UNKNOWN | non-failing, PPCM, HCM, DCM | Yes | Yes | Public | No | UNKNOWN | UNKNOWN | Source study IRB/consent described in GEO record | VERIFIED SOURCE, RETENTION/LINKAGE PENDING
+
+GSE249925 | GSE249925 | PRJNA1051135 | [verify SRA project/run accession] | Garmany et al. | cardiac biopsy | bulk mRNA-seq | NovaSeq 6000 | 120 | 50 | UNKNOWN | controls, HCM | Yes | Yes | Public | No | UNKNOWN | UNKNOWN | Original study/repository governance to be documented | VERIFIED SOURCE, RETENTION/LINKAGE PENDING
