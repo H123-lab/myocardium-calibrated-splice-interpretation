@@ -46,10 +46,4 @@ The final reproducible implementation must document:
 9. clipping or thresholding;
 10. missing-value handling.
 
-## Status
 
-Tools and versions documented.
-
-Exact historical score transformation: NOT VERIFIED.
-
-Original transformation script: NOT AVAILABLE.
