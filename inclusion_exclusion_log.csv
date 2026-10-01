@@ -1,0 +1,23 @@
+source_dataset
+GSM_id
+source_subject_id
+final_participant_id
+initially_identified
+tissue_eligible
+assay_eligible
+read_depth_QC
+mapping_QC
+splice_junction_QC
+duplicate_status
+clinical_data_available
+included_primary_cohort
+exclusion_reason
+notes
+
+                         SOURCE     INCLUDED
+GSE146621                    29          ?
+GSE141910                   366          ?
+GSE249925                   120          ?
+Additional resource         71          ?
+------------------------------------------------
+Unique participants                       450
