@@ -1,42 +1,75 @@
 # Myocardium-Calibrated Splice Interpretation Framework
 
-## Project overview
+This repository accompanies the manuscript:
 
-This repository is intended to document and support reproducibility of a research framework integrating cardiac transcriptomic splicing measurements, splice-prediction outputs, structural-domain context, and variant-level evidence for **TTN** and **MYH7**.
+**A Myocardium-Calibrated Framework for Splice Variant Interpretation Using Cardiac Transcriptomics: Application to TTN and MYH7 in Cardiomyopathy**
 
-The associated manuscript investigates a myocardium-calibrated approach to splice-variant interpretation using previously generated cardiac transcriptomic and related datasets.
+## Purpose
 
-## Current repository status
+This repository provides the data provenance information, dataset accession inventory, analysis workflow documentation, model description, software information, variable definitions, and reproducibility documentation associated with the study.
 
-**Status: Reproducibility documentation under development.**
+The study integrates cardiac transcriptomic data, splice-related genomic variation, myocardial splicing features, computational prediction, and multimodal cardiac phenotypes to evaluate a myocardium-calibrated framework for splice-variant interpretation in TTN and MYH7.
 
-The repository is being assembled alongside manuscript revision. Dataset provenance, participant-level deduplication, analytical cohort counts, analysis scripts, software versions, model configuration, and output-generation procedures must be verified against the original analysis records before the repository is described as fully reproducible.
+## Data availability
 
-Files marked `TODO`, `VERIFY`, or `PENDING` identify information that has not yet been independently confirmed. These markers must be resolved or explicitly explained before public release.
+The analyses were based on previously generated datasets and publicly available and/or controlled-access resources. No new participants were recruited and no new biological specimens were collected for this study.
 
-## Intended contents
+Raw participant-level sequencing data are not redistributed in this repository. Where permitted, the repository provides accession identifiers and links to the originating repositories so that users can obtain the source data directly under the applicable access conditions.
 
-The completed repository is intended to contain:
+Controlled-access data, if applicable, remain subject to the access conditions of the originating repository or study.
 
-* A source-level dataset inventory with accession identifiers, source publications, access conditions, and analytical roles.
-* Cohort inclusion, exclusion, deduplication, and quality-control documentation.
-* Variable definitions and analysis-specific denominators.
-* The analysis workflow and executable scripts, where available.
-* Software and package versions, model configuration, and evaluation procedures.
-* Permitted example data and reproducible example outputs.
-* A mapping between manuscript figures/tables and the scripts or source files that generate them.
+## Repository contents
 
-## Data access and privacy
+- `docs/` — provenance, workflow, model, software, ethics, and reproducibility documentation.
+- `metadata/` — dataset accession inventory, cohort reconciliation records, variable definitions, and figure/table mapping.
+- `workflows/` — reconstruction of the analytical workflow based on the methods and surviving study documentation.
+- `examples/` — verified non-sensitive or clearly synthetic example data, where available.
+- `results/` — documentation of manuscript-derived results and their reproducibility status.
+- `reproduction/` — reproduction status, unresolved items, and verification records.
 
-This repository does not authorize redistribution of source datasets. Public datasets should be obtained from their originating repositories under the applicable terms. Controlled-access data must be obtained through the relevant access process.
+## Important reproducibility statement
 
-No identifiable participant information, credentials, access tokens, or restricted participant-level data should be committed to this repository.
+Some original analysis scripts, intermediate files, prediction exports, model outputs, and computational logs are no longer available.
 
-## Reproducibility statement
+Accordingly, this repository distinguishes between:
 
-At the present stage, this repository is a documentation scaffold and should not be interpreted as proof that every manuscript result can already be regenerated from the files provided here. The reproducibility status will be updated as source provenance, code, dependencies, and outputs are verified.
+1. analyses that can be directly reproduced from preserved code and data;
+2. analyses that can be reconstructed from documented methods and publicly available source datasets;
+3. manuscript results for which original computational outputs are no longer available for independent rerun.
 
-## Citation
+No reconstructed workflow is presented as the original executable analysis unless the corresponding original code or independently verified equivalent implementation is available.
 
-The repository citation and associated manuscript citation will be added after the manuscript's bibliographic details and repository release are finalized.
+## Source datasets
 
+The current study documentation identifies the following major public resources:
+
+- GSE146621
+- GSE138262 / PRJNA575238
+- GSE141910
+- GSE249925 / PRJNA1051135
+
+Dataset-level details, source sizes, analytic contributions, and access status are documented in `metadata/dataset_inventory.csv`.
+
+## Model and comparator documentation
+
+The manuscript evaluates a myocardium-calibrated splice prediction model against established splice prediction approaches including:
+
+- SpliceAI v1.3.1
+- MaxEntScan Bioconda 0_2004.04.21-4
+
+The exact original implementation of the cardiac-tuned model is being documented separately because the original executable model files and training records are no longer available.
+
+## Reproducibility status
+
+This repository should not be interpreted as claiming complete computational reproducibility of every numerical result in the manuscript.
+
+The purpose is to make the study's provenance, analytical decisions, data sources, computational dependencies, and remaining reproducibility limitations transparent.
+
+## Contact
+
+Corresponding author:
+Hassa Iftikhar
+
+Wuhan, China
+
+Corresponding email: hassabatool@yahoo.com
