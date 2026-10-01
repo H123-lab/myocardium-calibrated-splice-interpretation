@@ -1,0 +1,10 @@
+variant_id
+gene
+splice_site_strength
+sequence_context_features
+cis_motif_features
+exon_identity
+atlas_PSI
+structural_domain
+RBP_features
+target_exposure
