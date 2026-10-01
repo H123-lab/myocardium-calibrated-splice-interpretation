@@ -1,0 +1,6 @@
+| Variant_ID | Splice_disruption_label | Delta_PSI | Dataset_split |
+| ---------- | ----------------------: | --------: | ------------- |
+| V001       |                       1 |     -0.31 | train         |
+| V002       |                       1 |     -0.42 | train         |
+| V003       |                       0 |     -0.04 | test          |
+| V004       |                       1 |     -0.27 | validation    |
