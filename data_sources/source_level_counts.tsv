@@ -1,0 +1,7 @@
+source_id	accession	tissue/assay	source_participants	source_samples	source_records	included_in_450_bulk_cohort	status
+SRC-HCM-SC-01	PRJNA575238/GSE138262/SRP223884	Heart septal myectomy; scRNA-seq	5	16	16	NO	VERIFIED
+SRC-VERDONSCHOT	GSE146621	LV bulk RNA-seq	29	VERIFY	VERIFY	VERIFY	Requires source-level reconciliation
+SRC-WEHR_ENS	PRJNA575238/GSE138262	Heart scRNA-seq	5	16	16	NO	Verified as scRNA resource; not counted as bulk participants
+SRC-MAGNET	GSE141910	LV cardiac RNA-seq	VERIFY	VERIFY	VERIFY	VERIFY	Requires source-level reconciliation
+SRC-GSE249925	GSE249925/PRJNA1051135	Cardiac biopsy bulk RNA-seq	VERIFY	VERIFY	VERIFY	VERIFY	Requires source-level reconciliation
+SRC-ADDITIONAL	UNKNOWN	Multimodal records	UNKNOWN	UNKNOWN	71	UNKNOWN	NOT IDENTIFIED
