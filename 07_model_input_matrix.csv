@@ -1,0 +1,5 @@
+| Variant_ID | Gene | SpliceSiteStrength | SequenceContext | CISMotifScore | ExonIdentity | Atlas_PSI | Domain | RBP_Feature |
+| ---------- | ---- | -----------------: | --------------: | ------------: | ------------ | --------: | ------ | ----------: |
+| V001       | TTN  |               0.82 |            0.74 |          0.61 | PEVK         |      0.78 | PEVK   |        0.69 |
+| V002       | TTN  |               0.91 |            0.88 |          0.73 | N2BA         |      0.83 | N2BA   |        0.72 |
+| V003       | MYH7 |               0.76 |            0.69 |          0.58 | Motor        |      0.81 | Head   |        0.65 |
