@@ -28,3 +28,43 @@ GSM4399832	LMNA.SID-10180	LMNA-DCM	GSE146621
 GSM4399833	MYH7.SID-10239	MYH7-DCM	GSE146621
 GSM4399834	LMNA.SID-10282	LMNA-DCM	GSE146621
 GSM4399835	LMNA.SID-19999	LMNA-DCM	GSE146621
+
+# Data provenance
+
+This directory documents the public data resources identified as contributing
+to the study and records the provenance information that could be independently
+verified from public repository records.
+
+## GSE146621
+
+GSE146621 is a public Gene Expression Omnibus (GEO) dataset entitled:
+
+"Distinct cardiac transcriptomic clustering in titin and lamin a/c-associated
+dilated cardiomyopathy patients."
+
+The GEO record contains 29 human cardiac transcriptomic samples.
+
+The current verified sample inventory is provided in:
+
+`GSE146621_sample_inventory.tsv`
+
+The 29 samples comprise genetically characterized DCM samples associated with
+TTN truncating variants, RBM20, MYH7, and LMNA.
+
+Raw sequencing data are publicly available through the associated SRA record,
+and processed data are available through GEO.
+
+The present repository does not redistribute raw sequencing data.
+
+## Important provenance limitation
+
+The original participant-level linkage between GSE146621 and the final
+450-participant analytic cohort has not yet been reconstructed and therefore
+is not represented here as established fact.
+
+No inferred participant linkage should be interpreted as an original linkage
+key.
+
+Additional source-level datasets and their contribution to the final analytic
+cohort are documented separately once their inclusion and linkage can be
+verified.
