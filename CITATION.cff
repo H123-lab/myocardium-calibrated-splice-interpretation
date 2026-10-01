@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Myocardium-Calibrated Splice Interpretation Framework"
+message: "If you use this repository, please cite the associated manuscript."
+type: software
+authors:
+  - family-names: Iftikhar
+    given-names: Hassa
+repository-code: "REPLACE_WITH_GITHUB_URL"
+abstract: >
+  Documentation and reproducibility resources accompanying a myocardium-calibrated
+  framework for splice variant interpretation using cardiac transcriptomic data,
+  with TTN and MYH7 as exemplar genes.
+license: CC-BY-4.0
