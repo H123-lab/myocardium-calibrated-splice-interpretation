@@ -1,0 +1,28 @@
+model_name: cardiac_tuned_splice_model
+task:
+  primary: splice_disruption_prediction
+  secondary: exon_level_delta_PSI_prediction
+
+genes:
+  - TTN
+  - MYH7
+
+features:
+  - splice_site_strength
+  - sequence_context
+  - cis_regulatory_motifs
+  - exon_identity
+  - atlas_derived_PSI
+  - structural_domain_annotation
+  - RBP_related_features
+
+outputs:
+  - splice_disruption_probability
+  - exon_level_delta_PSI
+
+cross_validation:
+  folds: 5
+
+held_out_test_set:
+  present: true
+  external_validation: false
