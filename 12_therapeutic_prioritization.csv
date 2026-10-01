@@ -1,0 +1,7 @@
+| Candidate | Gene | Region | ΔPSI magnitude | Structural relevance | Outcome association | Feasibility | Composite score | Rank |
+| --------- | ---- | ------ | -------------: | -------------------: | ------------------: | ----------: | --------------: | ---: |
+| TTN-Ex326 | TTN  | PEVK   |           0.91 |                 0.88 |                0.85 |        0.62 |            0.86 |    1 |
+| TTN-Ex327 | TTN  | PEVK   |           0.87 |                 0.85 |                0.82 |        0.60 |            0.83 |    2 |
+| TTN-Ex219 | TTN  | N2BA   |           0.79 |                 0.81 |                0.76 |        0.58 |            0.77 |    3 |
+| MYH7-Ex23 | MYH7 | Motor  |           0.83 |                 0.90 |                0.81 |        0.54 |            0.80 |    4 |
+| MYH7-Ex24 | MYH7 | Motor  |           0.78 |                 0.88 |                0.79 |        0.52 |            0.77 |    5 |
