@@ -1,0 +1,23 @@
+STAR version: v2.7.x
+Genome:
+GRCh38
+
+Input:
+paired-end RNA-seq
+
+splice-aware alignment:
+YES
+
+Exact command:
+NOT RECOVERED
+
+Parameters:
+NOT RECOVERED
+
+Important manuscript-level QC:
+
+read depth >=70M paired-end
+
+mapping rate >=90%
+
+TTN/MYH7 junction coverage required
