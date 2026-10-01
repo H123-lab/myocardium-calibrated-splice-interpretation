@@ -69,7 +69,4 @@ The purpose is to make the study's provenance, analytical decisions, data source
 
 Corresponding author:
 Hassa Iftikhar
-
-Wuhan, China
-
 Corresponding email: hassabatool@yahoo.com
