@@ -1,0 +1,12 @@
+variable,definition,unit_or_scale,source,analysis_role,status
+PSI,Percent spliced in,0-1 internally and 0-100% for reporting,RNA-seq junction quantification,Primary splicing feature,Reported
+Delta_PSI,Disease-group mean PSI minus control-group mean PSI,Percentage points,Derived from PSI,Splicing effect feature,Reported
+N2BA_N2B_ratio,TTN isoform usage ratio,Ratio,Derived exon groups,Composite splicing feature,Reported
+LVEDV,Left ventricular end-diastolic volume,mL,Imaging source,Clinical phenotype,Reported
+LVEF,Left ventricular ejection fraction,%,Imaging source,Clinical phenotype,Reported
+GLS,Global longitudinal strain,%,CMR/echocardiographic source,Clinical phenotype,Reported
+6MWT,Six-minute walk distance,m,Source-specific clinical dataset,Secondary phenotype,Requires provenance verification
+Grip_Strength,Grip strength,kg,Source-specific clinical dataset,Secondary phenotype,Requires provenance verification
+SpliceAI_score,SpliceAI splice-effect score,Tool-defined scale,SpliceAI,Comparator,Reported
+MaxEntScan_score,Maximum-entropy splice-site score,Tool-defined scale,MaxEntScan,Comparator,Reported
+Cardiac_AI_score,Cardiac-tuned splice prediction output,0-1 if probability output confirmed,Model output,Primary model feature,Requires implementation verification
