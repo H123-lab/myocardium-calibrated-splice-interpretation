@@ -1,0 +1,13 @@
+output,analysis_component,source_data,software_or_tool,original_script_available,verification_status
+Figure 1,Myocardium-calibrated framework schematic,Methods description,Figure-generation software,NO,Documentation available
+Figure 2,Myocardial TTN/MYH7 splicing architecture,PSI/exon data,R/Python,NO,Manuscript output retained
+Figure 3,AI model/performance/interpretability,Model predictions and comparator outputs,R/Python/modeling tools,NO,Historical outputs retained in manuscript/supplementary material
+Figure 4,Variant-level integration,Variant/PSI/imaging data,R/Python,NO,Manuscript output retained
+Figure 5,Variant reclassification,78-variant evidence table,R/Python,NO,Manuscript output retained
+Figure 6,Functional/digital-twin modeling,Splicing-derived functional features,Modeling environment,NO,Historical output retained
+Table 1,Cohort characteristics,Clinical metadata,R/Python,NO,Participant-level source requires reconciliation
+Table 2,Splicing architecture,PSI matrix,R/Python,NO,Historical summary retained
+Table 3,AI benchmarking,Prediction outputs,R/Python,NO,Historical summary retained
+Table 4,Variant interpretation,Variant evidence,R/Python,NO,Historical summary retained
+Table 5,Clinical associations,Imaging/outcome data,R/Python,NO,Historical summary retained
+Table 6,Therapeutic prioritization,Composite prioritization scores,R/Python,NO,Historical summary retained
