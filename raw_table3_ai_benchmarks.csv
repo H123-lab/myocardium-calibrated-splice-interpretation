@@ -1,0 +1,11 @@
+task,model_or_baseline,auc,auc_ci_lower,auc_ci_upper,rmse_psi,pr_auc,brier_score,calibration_slope,held_out_auc
+Pathogenic vs benign splice-site variants (TTN),SpliceAI v1.3.1,0.82,0.79,0.85,NA,0.70,0.15,0.85,0.78
+Pathogenic vs benign splice-site variants (TTN),MaxEntScan,0.75,0.70,0.80,NA,0.68,0.19,0.78,NA
+Pathogenic vs benign splice-site variants (TTN),Cardiac-tuned AI,0.94,0.92,0.96,NA,0.91,0.06,1.03,0.89
+Pathogenic vs benign splice-site variants (MYH7),SpliceAI v1.3.1,0.78,0.75,0.81,NA,0.65,0.18,0.80,0.72
+Pathogenic vs benign splice-site variants (MYH7),MaxEntScan,0.72,0.66,0.78,NA,0.64,0.21,0.74,NA
+Pathogenic vs benign splice-site variants (MYH7),Cardiac-tuned AI,0.92,0.90,0.94,NA,0.88,0.08,1.01,0.86
+PSI prediction for TTN exons,Baseline regression SpliceAI v1.3.1,NA,NA,NA,0.11,NA,NA,NA,NA
+PSI prediction for TTN exons,Cardiac-tuned AI,NA,NA,NA,0.045,NA,NA,NA,NA
+PSI prediction for MYH7 exons,Baseline regression SpliceAI v1.3.1,NA,NA,NA,0.12,NA,NA,NA,NA
+PSI prediction for MYH7 exons,Cardiac-tuned AI,NA,NA,NA,0.052,NA,NA,NA,NA
