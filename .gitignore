@@ -1,32 +1,82 @@
-# Local environments
+# ==============================================================================
+# Master Repository Ignore Configuration
+# Protects genomic safe-harbors, credentials, and runtime cache environments
+# ==============================================================================
+
+# 1. Python & R Local Environments
 .venv/
 venv/
 env/
+ENV/
 .Rproj.user/
 .Rhistory
 .RData
+.Ruserdata
 
-# Temporary and cache files
+# 2. Programmatic Cache and System Artifacts
 __pycache__/
 *.py[cod]
+*$py.class
 .ipynb_checkpoints/
 .cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 tmp/
 temp/
+TMP/
+TEMP/
 
-# Local secrets and credentials
+# 3. Cryptographic Keys, Local Secrets, and Credentials
 .env
 .env.*
 *.pem
 *.key
+*pub.key
 credentials*
 secrets*
+auth_record*
+token_key.txt
 
-# Large or potentially restricted data
-data/raw/*
-data/processed/*
-!data/raw/README.md
-!data/processed/README.md
+# 4. Large, Protected Genomic Layers & Local Directories
+raw_data/*
+processed_data/*
+example_data/*
+software_environment/*
+results/*
+plots_output/*
 
-# Local logs
+# White-list governance files to allow pipeline visibility across all directories
+!raw_data/README.md
+!processed_data/README.md
+!example_data/README.md
+!software_environment/README.md
+!results/README.md
+
+# 5. Raw Sequencing, Multi-Sample Variant, and Model Binaries
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.cram
+*.vcf
+*.vcf.gz
+*.gtf
+*.gff
+*.pkl
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.joblib
+
+# 6. Local Operating System Streams and Log Dumps
 *.log
+*.logn
+.DS_Store
+Thumbs.db
+Desktop.ini
+
