@@ -1,0 +1,36 @@
+# ==============================================================================
+# Model Feature Engineering & Input Configuration Specification
+# Aligned 100% with Framework Inputs and Baseline Transformation Diagnostics
+# ==============================================================================
+
+model_metadata:
+  framework_name: CardioSplice-RU
+  version: v0.1
+  underlying_architectures: [Convolutional, Recurrent, Attention-Mechanisms]
+
+input_feature_layers:
+  # Layer 1: Contextual Myocardium Atlas Parameters
+  myocardial_context_features:
+    - splice_site_strength
+    - sequence_context_window: +/- 50bp splice junctions
+    - cis_regulatory_motifs: [Canonical Donor GT, ESE Motifs, RBM20 Elements]
+    - exon_identity_matrix
+    - atlas_derived_baseline_psi: [TTN_N2BA, TTN_N2B, TTN_PEVK, MYH7_Domains]
+    - structural_domain_annotation: [Z-disc, I-band, PEVK, A-band, M-line, Motor-Head, Lever-Arm, Rod]
+
+  # Layer 2: Sequence-Based Baseline Predictor Transformations
+  baseline_model_transformations:
+    spliceai_derived_features:
+      - maximum_spliceai_delta_score
+      - specific_donor_acceptor_delta
+      - delta_between_reference_and_alternate_scores
+      - absolute_change_score
+      - normalized_probability_score
+    maxentscan_derived_features:
+      - maxentscan_reference_minus_alternate_score
+      - motif_matrix_score_delta
+      - alternate_formulation_weighting
+
+data_provenance_safe_harbor:
+  controlled_access_repositories: [dbGaP, EGA, BioData Catalyst]
+  public_repository_status: Strictly limited to processed feature spaces, normalized coefficients, and reclassification matrices to protect participant identity bounds.
