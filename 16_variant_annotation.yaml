@@ -1,0 +1,15 @@
+genome_build: GRCh38
+ClinVar:
+  used: true
+  version: 2023-11-05
+gnomAD:
+  used: true
+  version: v3.1.2
+RefSeq:
+  used: true
+  release: GCF_000001405.39-RS_2023_10
+Ensembl:
+  used: true
+  release: release-104
+annotation_pipeline:
+  exact_version: VEP v104.3
