@@ -1,0 +1,17 @@
+# Ensure you are in your target git directory
+cd your-hcm-splicing-repo
+
+# Create the script files
+touch 2.10_phenotype_regression.R
+touch 2.10_ai_model_evaluation.py
+
+# [Paste the code blocks above into their respective files using your editor]
+
+# Make the scripts executable
+chmod +x 2.10_phenotype_regression.R
+chmod +x 2.10_ai_model_evaluation.py
+
+# Stage, commit, and push to GitHub
+git add 2.10_phenotype_regression.R 2.10_ai_model_evaluation.py
+git commit -m "feat(reproducibility): push section 2.10 verification layers for linear, Cox, and AI metrics"
+git push origin main
