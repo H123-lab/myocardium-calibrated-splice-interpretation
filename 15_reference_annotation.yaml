@@ -1,0 +1,6 @@
+genome_build: GRCh38
+annotation_release: GENCODE v38
+transcript_database: Ensembl 104
+exact_release: GRCh38.p13
+TTN_transcript: ENST00000591111 (TTN-213 / N2BA archetype)
+MYH7_transcript: ENST00000355349 (MYH7-201 / Canonical MANE Select)
