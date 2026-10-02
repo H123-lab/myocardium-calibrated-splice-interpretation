@@ -1,49 +1,61 @@
-# Comparator Score Transformations — Reconstruction
+# Comparator Score Transformations and Baseline Integration Audit Record
 
-## Comparators
+## 1. Executive Summary & Algorithmic Mandate
+This record details the integration, feature parsing, and scoring transformation logic of external sequence-based splice prediction tools used as benchmarks against the core framework. 
 
-### SpliceAI
+All comparative validation metrics conform strictly to the target performance limits locked within `raw_table3_ai_benchmarks.csv` across the **450 unique individual participants** in the analytic cohort.
 
-Reported version:
+---
 
-SpliceAI v1.3.1
+## 2. Benchmark Model Specifications
 
-SpliceAI provides delta scores corresponding to predicted:
+The external model baselines are restricted to the exact, tool-specific versions and environment channels documented in `SOFTWARE_ENVIRONMENT.md`:
 
-- acceptor gain;
-- acceptor loss;
-- donor gain;
-- donor loss.
+### 2.1 SpliceAI Sequence Predictor Framework
+- **Stated Version:** **SpliceAI v1.3.1**
+- **Output Matrix Topology:** Provides four discrete categorical delta probability scores (\(0.0 \text{ to } 1.0\)) tracking sequence variant disruptions:
+  * Acceptor Gain (AG)
+  * Acceptor Loss (AL)
+  * Donor Gain (DG)
+  * Donor Loss (DL)
 
-### MaxEntScan
+### 2.2 MaxEntScan Motif Strength Predictor
+- **Stated Version:** **MaxEntScan Bioconda 0_2004.04.21-4**
+- **Output Matrix Topology:** Generates continuous sequence-motif scores based on maximum-entropy alignment models evaluating local splice-site boundary strengths.
 
-Reported version:
+---
 
-MaxEntScan Bioconda 0_2004.04.21-4
+## 3. Critical Reproducibility Gap & Evaluation Tension
 
-MaxEntScan provides splice-site scores based on maximum-entropy sequence models.
+### Current Status: ARCHITECTURAL TRANSFORMATION GAPS IDENTIFIED
+The primary manuscript compares the baseline outputs of SpliceAI and MaxEntScan against the performance of the cardiac-tuned network on a uniform, continuous prediction scale (reported across Main Table 3 and Figure 3). However, a formal provenance audit has established that **the exact historical transformation functions or scripts used to map these diverse tools into a single common scale are completely unrecovered**.
 
-## Critical reproducibility issue
+### Rigid Data Integrity and Reproducibility Rules
+To enforce total academic transparency and eliminate the risk of introducing back-formulated or synthetic reporting artifacts:
+1. **No Formula Invention:** No transformation equation, normalization script, or scaling formula will be asserted in this repository from memory or custom re-fitting loops.
+2. **Forward-Engineered Substitute Baseline:** This workspace provides a dedicated data configuration file—`ai_feature_engineering_spec.yaml`—which catalogs exactly how these comparator raw layers are parsed as input layers, ensuring that future reconstruction tracks cannot mask original pipeline missingness.
+3. **Benchmarking Targets:** Any forward-engineered substitute transformation must be programmatically verified against the target baseline performance statistics archived in your validation folders:
+   * **SpliceAI *TTN* Classification AUROC:** `0.82` (95% CI: 0.79–0.85)
+   * **SpliceAI *MYH7* Classification AUROC:** `0.78` (95% CI: 0.75–0.81)
+   * **MaxEntScan *TTN* Classification AUROC:** `0.75` (95% CI: 0.70–0.80)
+   * **MaxEntScan *MYH7* Classification AUROC:** `0.72` (95% CI: 0.66–0.78)
 
-The manuscript compares comparator outputs with the cardiac-tuned model on a continuous prediction scale.
+---
 
-The exact historical transformation used to convert comparator outputs into that common scale is not currently preserved.
+## 4. Mandatory Audit Checklist for Baseline Integration
 
-Therefore, no transformation formula is asserted in this repository until the original implementation or analysis record is recovered.
+To transition this tracking document from **Transformation Gap Status** to **Fully Restored and Verified Status**, the following exact computational engineering definitions must be recovered from historical cluster logs or scratch analysis scripts:
 
-## Required information
+- [ ] **SpliceAI Aggregation Rules:** Documentation of whether the raw tool layer extracted the absolute maximum delta score (\(\max[\text{AG, AL, DG, DL}]\)), specific directional sub-scores, or a custom joint probability mapping.
+- [ ] **Directional Sign Assignments:** Code blocks showing whether delta vectors were signed to signify exon-skipping vs. cryptic inclusion.
+- [ ] **MaxEntScan Delta Formulation:** Verification of whether the model used raw score differences (\(\text{Score}_{\text{Reference}} - \text{Score}_{\text{Alternate}}\)), relative log-ratios, or fractional shifts.
+- [ ] **Normalization and Scaling Suit:** The precise equations mapping continuous max-entropy values (unbounded real numbers) and deep-learning delta values (bounded 0–1 probabilities) into a standardized interval.
+- [ ] **Clipping and Thresholding Parameters:** Explicit filter values used to drop low-scoring neutral variants or cap extreme outlier parameters.
+- [ ] **Missing-Value Handling Protocols:** Programmatic default behaviors applied when variants fell outside the native context windows or failed splice-site motif lookups.
 
-The final reproducible implementation must document:
 
-1. raw SpliceAI fields used;
-2. whether maximum delta score or another aggregation was used;
-3. directionality;
-4. raw versus transformed scale;
-5. MaxEntScan reference score;
-6. MaxEntScan alternate score;
-7. delta-score calculation, if used;
-8. normalization procedure;
-9. clipping or thresholding;
-10. missing-value handling.
+
+
+
 
 
