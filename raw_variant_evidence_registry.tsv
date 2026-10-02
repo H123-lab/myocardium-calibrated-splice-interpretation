@@ -1,0 +1,14 @@
+variant_id	gene	grch38_coordinate	hgvs_c	structural_domain	prior_clinical_class	post_framework_class	observed_rna_event	delta_psi_pp	cardiosplice_score	long_read_support
+V001	TTN	chr2:10018731	c.238A>G	Z-disc	VUS	Likely pathogenic	-0.51	-51.0	0.91	Supported
+V002	MYH7	chr14:10037462	c.375A>G	converter	VUS	Likely pathogenic	-0.68	-68.0	0.87	Supported
+V003	TTN	chr2:10056193	c.512+1A>G	I-band N2BA/N2B	VUS	Likely pathogenic	-0.43	-43.0	0.83	Supported
+V004	MYH7	chr14:10074924	c.649G>A	lever arm	VUS	Likely pathogenic	-0.60	-60.0	0.79	Supported
+V005	TTN	chr2:10093655	c.786A>G	M-line	VUS	Likely pathogenic	-0.35	-35.0	0.75	Supported
+V006	MYH7	chr14:10112386	c.923+1A>G	motor head	VUS	Likely pathogenic	-0.52	-52.0	0.94	Supported
+V007	TTN	chr2:10131117	c.1060A>G	I-band PEVK	VUS	Likely pathogenic	-0.69	-69.0	0.90	Supported
+V008	MYH7	chr14:10149848	c.1197G>A	neck	VUS	Likely pathogenic	-0.44	-44.0	0.86	Supported
+V012	MYH7	chr14:10224772	c.1745+1G>A	converter	VUS	Likely pathogenic	-0.70	-70.0	0.93	Supported
+V036	MYH7	chr14:10674316	c.5033+1G>A	motor head	VUS	Pathogenic	-0.58	-58.0	0.90	Supported
+V037	TTN	chr2:10693047	c.5170A>G	I-band PEVK	VUS	Pathogenic	-0.75	-75.0	0.88	Supported
+V054	MYH7	chr14:11011474	c.7499+1A>G	lever arm	VUS	Likely benign	-0.16	-16.0	0.32	Preserved
+V057	TTN	chr2:11067667	c.7910+1A>G	I-band PEVK	VUS	Likely benign	-0.02	-2.0	0.31	Preserved
