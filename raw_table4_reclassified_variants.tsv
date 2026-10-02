@@ -1,0 +1,6 @@
+variant_id	gene	hgvs_change	exon_intron_context	prior_classification	ai_predicted_disruption_prob	observed_delta_psi	structural_isoform_context	proposed_classification
+V001	TTN	c.23145-3C>T	Intron 145 (N2BA-specific)	VUS	0.92	-22.7%	Loss of N2BA-specific exon; shifts N2BA:N2B ratio toward stiff isoform	Likely pathogenic
+V002	TTN	c.17912+5G>A	Intron 112 (I-band PEVK)	VUS	0.88	-18.4%	PEVK exon enriched in compliant I-band isoforms; reduced inclusion increases passive stiffness	Likely pathogenic
+V003	TTN	c.30567G>A	Exon 188 (A-band)	VUS	0.61	-6.1%	Constitutive A-band exon; minimal isoform specificity	Remains VUS
+V004	MYH7	c.1208-2A>G	Intron 12 (head domain)	VUS	0.75	-11.3%	Alternative exon enriched in HCM samples; affects motor domain dynamics	Likely pathogenic
+V005	MYH7	c.4567+6T>C	Intron 30 (rod domain)	VUS	0.54	-3.2%	Rod-domain exon with stable inclusion across cohorts	Likely benign
