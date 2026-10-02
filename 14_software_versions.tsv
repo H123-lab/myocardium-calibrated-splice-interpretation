@@ -1,0 +1,16 @@
+Software	Version currently stated
+STAR	v2.7.x
+BWA-MEM	v0.7.x
+GATK	v4.x
+Picard	v2.x
+SpliceAI	v1.3.1
+MaxEntScan	0_2004.04.21-4
+R	v4.x
+Python	v3.x
+ONT software	
+MMSplice (Modular Modeling of Splicing)
+
+SpliceAI	
+Deep Convolutional Networks	
+Predicts if deep intronic variants found in the patient lead to HCM phenotypic shifts
+
