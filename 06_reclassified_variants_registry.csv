@@ -1,0 +1,14 @@
+Variant_ID,Gene,Transcript,GRCh38_Coordinate,HGVS_c,Exon_Intron,Structural_Domain,Prior_Clinical_Class,CardioSplice_Score,Delta_PSI_pp,Proposed_Research_Class
+V001,TTN,NM_001267550.2,chr2:10018731,c.238A>G,exon 37 / intron 38,Z-disc,VUS,0.91,-51.0,Likely pathogenic
+V002,MYH7,NM_000257.4,chr14:10037462,c.375A>G,exon 11 / intron 12,converter,VUS,0.87,-68.0,Likely pathogenic
+V003,TTN,NM_001267550.2,chr2:10056193,c.512+1A>G,exon 51 / intron 52,I-band N2BA/N2B,VUS,0.83,-43.0,Likely pathogenic
+V004,MYH7,NM_000257.4,chr14:10074924,c.649G>A,exon 17 / intron 18,lever arm,VUS,0.79,-60.0,Likely pathogenic
+V005,TTN,NM_001267550.2,chr2:10093655,c.786A>G,exon 65 / intron 66,M-line,VUS,0.75,-35.0,Likely pathogenic
+V006,MYH7,NM_000257.4,chr14:10112386,c.923+1A>G,exon 23 / intron 24,motor head,VUS,0.94,-52.0,Likely pathogenic
+V007,TTN,NM_001267550.2,chr2:10131117,c.1060A>G,exon 79 / intron 80,I-band PEVK,VUS,0.90,-69.0,Likely pathogenic
+V008,MYH7,NM_000257.4,chr14:10149848,c.1197G>A,exon 29 / intron 30,neck,VUS,0.86,-44.0,Likely pathogenic
+V012,MYH7,NM_000257.4,chr14:10224772,c.1745+1G>A,exon 6 / intron 7,converter,VUS,0.93,-70.0,Likely pathogenic
+V036,MYH7,NM_000257.4,chr14:10674316,c.5033+1G>A,exon 8 / intron 9,motor head,VUS,0.90,-58.0,Pathogenic
+V037,TTN,NM_001267550.2,chr2:10693047,c.5170A>G,exon 289 / intron 290,I-band PEVK,VUS,0.88,-75.0,Pathogenic
+V054,MYH7,NM_000257.4,chr14:11011474,c.7499+1A>G,exon 27 / intron 28,lever arm,VUS,0.32,-16.0,Likely benign
+V057,TTN,NM_001267550.2,chr2:11067667,c.7910+1A>G,exon 149 / intron 150,I-band PEVK,VUS,0.31,-2.0,Likely benign
