@@ -1,7 +1,7 @@
 Dataset,Repository,Access type,Dataset ID,Access route,Historical access verified?
-GSE146621,GEO,Public,GSE146621,GEO,Yes/public
-GSE138262,GEO/SRA,Public,GSE138262 / PRJNA575238,GEO/SRA,Yes/public
-GSE141910,GEO / source-specific,Public/controlled as applicable,GSE141910,GEO/Controlled-Portal,Yes
-GSE249925,GEO/SRA,Public,GSE249925 / PRJNA1051135,GEO/SRA,Yes/public
-GTEx Project,dbGaP,Controlled-Access,phs000424,NCBI Entrez Portal,Yes/Controlled-Agreement
+GSE146621,GEO,Public,GSE146621,GEO Public Portal,Yes/public
+GSE138262,GEO/SRA,Public,GSE138262 / PRJNA575238,GEO/SRA Public Portal,Yes/public
+GSE141910,GEO,Public,GSE141910,GEO Public Portal,Yes/public
+GSE249925,GEO/SRA,Public,GSE249925 / PRJNA1051135,GEO/SRA Public Portal,Yes/public
+
 
