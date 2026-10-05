@@ -7,7 +7,12 @@
 reference_infrastructure:
   genome_assembly: GRCh38 (hg38)
   transcript_annotation_baseline: GENCODE v38 / Ensembl 104
-  modality_type: Paired-end total cardiac RNA-seq
+  modality_type: Bulk total cardiac RNA-seq
+  library_preparation_strategy:
+    type: Mixed Protocols
+    GSE146621_chemistry: poly(A)+ selection (Illumina TruSeq Stranded mRNA)
+    GSE141910_chemistry: poly(A)+ selection (TruSeq standard mapping)
+    GSE249925_chemistry: rRNA depletion (TruSeq Stranded Total RNA)
 
 core_alignment_engine:
   software_name: STAR
@@ -35,8 +40,8 @@ splicing_quantification_logic:
     maximum_statistical_variance_width: 0.25     # PSI 95% Confidence Interval half-width <= 0.25
 
 downstream_matrix_harmonization:
-  batch_effect_handling: Variance-preserving normalization framework
-  principal_component_tracking: Validated post-alignment in Supplementary Figure S1D-E
+  batch_effect_handling: Technical structure was assessed using principal-component analysis (PCA)
+  unadjusted_variation_status: Stated as an analytical limitation in Section 4.5 due to mixed library chemistry
   exact_preprocessing_scripts: NOT RECOVERED from surviving analysis environment
 
 reproducibility_caveat_protocol:
@@ -46,10 +51,8 @@ reproducibility_caveat_protocol:
     be explicitly designated under a [RECONSTRUCTED-ENVIRONMENT] log block and must 
     never be substituted silently for original historical pipeline binaries.
 
-💡 Factual Reconciliation & Bioinformatic Traceability
-Reviewers auditing this configuration file can instantly cross-reference its structural boundaries against your active repository datasets:
-1. Flawless Matrix Alignment: The quality control thresholds and filter dimensions defined here map perfectly to the data distributions and variance boxplots verified across your Supplementary Table S2 and Supplementary Table S3C master lists.
-2. Transparent Log Reconciliation: Explicitly naming the specific STAR command-line parameter flags (--twopassMode, --quantMode, etc.) while transparently identifying the core runtime shell scripts as NOT RECOVERED demonstrates absolute academic integrity to the journal's editorial board.
-3. Rigid Quality Gate Safeguards: Documenting the minimum depth (~70M reads) and junction support rules (≥ 50 reads in 80% of samples) programmatically accounts for the raw sample drops traced inside your dataset_inventory.csv manifest without creating metadata conflicts.
+
+
+
 
 
